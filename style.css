@@ -1,0 +1,109 @@
+/* Adjust font size for different screen sizes for responsiveness */
+@media (max-width: 1200px) {
+    :root {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 768px) {
+    :root {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 480px) {
+    :root {
+        font-size: 10px;
+    }
+}
+
+/* Styling for the main heading */
+h1 {
+    text-align: center;
+    font-size: 3rem;
+}
+
+/* Container for the input and button */
+.input-container {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+/* Input field styling */
+#task {
+    width: 40%;
+    height: 2.8rem;
+    margin: auto;
+    text-align: center;
+    font-size: larger;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+/* Add button styling */
+#add-task {
+    justify-self: left;
+    padding: 0.8rem 2.5rem;
+    font-size: larger;
+    border: 2px solid green;
+    border-radius: 5px;
+    background-color: rgb(41, 213, 41);
+    color: aliceblue;
+}
+
+/* Add button hover effect */
+#add-task:hover {
+    color: green;
+    background-color: aliceblue;
+}
+
+/* Styling for the task list */
+#task-list {
+    width: 80%;
+    margin: 2rem auto;
+}
+
+/* Styling for individual task elements */
+.list-element {
+    display: flex;
+    background-color: #f3eded;
+    padding: 1rem;
+    border-radius: 10px;
+    flex-direction: row;
+    width: 80%;
+    margin: 1rem auto;
+    justify-content: space-between;
+    list-style: decimal-leading-zero;
+}
+
+/* Styling for task text */
+.text {
+    font-size: 1.5rem;
+    margin: auto 1rem;
+    font-weight: 600;
+}
+
+/* Delete button styling */
+#delete-button {
+    padding: 1rem;
+    color: white;
+    background-color: red;
+    font-size: 1rem;
+    border-radius: 10px;
+}
+
+/* Footer styling */
+#footer {
+    margin-top: 2rem;
+    position: relative;
+    bottom: 0px;
+    width: 100%;
+}
+
+/* Footer text styling */
+#footer-p {
+    font-size: 2rem;
+    font-weight: 800;
+    text-align: center;
+}

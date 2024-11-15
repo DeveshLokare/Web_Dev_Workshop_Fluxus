@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Specifies character encoding and viewport settings for responsive design -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Title of the webpage -->
+    <title>My To-do list</title>
+    
+    <!-- Link to the external CSS file for styling -->
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <!-- Main heading of the page -->
+    <h1>To-Do List</h1>
+    
+    <!-- Input container for adding tasks -->
+    <div class="input-container">
+        <!-- Input field for writing tasks -->
+        <input id="task" class="text" placeholder="Write your task" onchange={handleChange(event)}>
+        
+        <!-- Button to add the task -->
+        <button id="add-task" type="button" onclick={handleClick()}>Add</button>
+    </div>
+    
+    <!-- Ordered list to display tasks -->
+    <ol id="task-list"></ol>
+    
+    <!-- Footer section -->
+    <footer id="footer">
+        <!-- Footer text -->
+        <p id="footer-p">&#169; 2024 Your Name</p>
+    </footer>
+    
+    <!-- Link to the external JavaScript file -->
+    <script src="/index.js"></script>
+</body>
+</html>
